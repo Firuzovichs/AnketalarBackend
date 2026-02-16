@@ -54,6 +54,8 @@ INSTALLED_APPS = [
     "drf_yasg",
     "relationship",
     "accounts.apps.AccountsConfig",
+    "jazzmin",
+    "django.contrib.admin",
 ]
 
 MIDDLEWARE = [
