@@ -44,6 +44,7 @@ ALLOWED_HOSTS = [h.strip() for h in os.getenv("DJANGO_ALLOWED_HOSTS", "localhost
 # Application definition
 
 INSTALLED_APPS = [
+    "jazzmin",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -54,8 +55,6 @@ INSTALLED_APPS = [
     "drf_yasg",
     "relationship",
     "accounts.apps.AccountsConfig",
-    "jazzmin",
-    "django.contrib.admin",
 ]
 
 MIDDLEWARE = [
