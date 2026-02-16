@@ -1,0 +1,10 @@
+.media
+.env
+/env
+/media
+./env
+./media
+.venv
+./venv
+/venv
+git init
