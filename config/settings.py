@@ -57,6 +57,26 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
 ]
 
+
+JAZZMIN_SETTINGS = {
+    "site_title": "Causer Admin",
+    "site_header": "Causer Administration",
+    "site_brand": "Causer",
+    "welcome_sign": "Xush kelibsiz!",
+    "copyright": "Causer.uz",
+
+    "show_sidebar": True,
+    "navigation_expanded": True,
+
+    "icons": {
+        "auth": "fas fa-users",
+        "auth.user": "fas fa-user",
+        "auth.group": "fas fa-users-cog",
+    },
+
+    "theme": "darkly",
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
